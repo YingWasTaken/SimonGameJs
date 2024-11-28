@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+body {
+    background-color: #440a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 5%;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #440a0a;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: #e5e5e5;
+    transform: scale(1.1);
+    letter-spacing: 5px;
+}
+
+
+/* CLASES */
+
+.container {
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.botones{
+    width: 150px;
+}
+
+/* ID'S */
+
+#rojo, #verde, #amarillo, #azul {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#verde {
+    background-color: green;
+    cursor: pointer;
+}
+
+ #rojo {
+    background-color: rgb(134, 10, 10);
+    cursor: pointer;
+ }
+
+ #amarillo {
+    background-color: goldenrod;
+    cursor: pointer;
+ }
+
+ #azul {
+    background-color: rgb(35, 35, 153);
+    cursor: pointer;
+ }
+
+ #verde:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    background-color: greenyellow;
+ }
+
+ #rojo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    background-color: red;
+ }
+
+ #amarillo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(255, 255, 0, 0.5);
+    background-color: yellow;
+ }
+
+ #azul:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    background-color: rgb(45, 94, 255);
+ }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Js Simon Game</h1>
+        <h2>Actual high score: <span id="high">0</span></h2>
+        <p>Score: <span id="score">0</span></p>
+        
+        <button onclick="start()" class="botones"> START </button>
+        <button onclick="restart()" class="botones">RESTART</button>
+
+        <div class="board">
+            <button onclick="colorClick('verde')" id="verde"></button>
+            <button onclick="colorClick('rojo')" id="rojo"></button>
+            <button onclick="colorClick('amarillo')" id="amarillo"></button>
+            <button onclick="colorClick('azul')" id="azul"></button>
+        </div>
+        <button onclick="simon()" id="simon" class="botones">SIMON</button>
+
+
+    </div>
+
+
+</body>
+</html>
